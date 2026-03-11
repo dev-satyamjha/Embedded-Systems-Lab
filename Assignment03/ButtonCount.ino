@@ -13,8 +13,6 @@ void setup() {
   Serial.begin(9600);
 }
 
-bool val = false;
-
 void loop() {
    buttonState = digitalRead(buttonPin);
 
@@ -26,5 +24,6 @@ void loop() {
 }
 
 lastbuttonState = buttonState;
+
 
 }
